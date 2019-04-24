@@ -18,8 +18,8 @@ module.exports = function(limit) {
   }
 
   for (let k = 0; k < prime.length; k++) {
-    sum += prime[k]
+    sum += prime[k];
   }
-  
+
   return sum;
 };
